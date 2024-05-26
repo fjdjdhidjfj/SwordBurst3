@@ -1,6 +1,6 @@
 bosses = {
     [1] = {
-        ["Elron the Frenzy Lord"] = 25,
+        ["Elron The Frenzy Lord"] = 25,
         ["Galiard"] = 20,
         ["Hagan"] = 10
     },
