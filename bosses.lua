@@ -10,7 +10,12 @@ bosses = {
         ["Roaring Ogre"] = 30
     },
     [3] = {
-        
+        ["Alpha Icewhal"] = 50,
+        ["Elize The Siren"] = 65,
+        ["Yeti"] = 60
+    },
+    [4] = {
+
     }
 }
 return bosses
