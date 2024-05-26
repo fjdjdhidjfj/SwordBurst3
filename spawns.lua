@@ -9,9 +9,6 @@ Spawns = {
         ["Thunder Sakura Moose"] = CFrame.new(-740, 209, -58)
         ["Soldier Boar"] = CFrame.new(-1510, -43, 1335),
         ["Basilisk"] = CFrame.new(-1050, -73, 1225)
-    }--[[,
-    [2] = {
-        --[""] = CFrame.new()
-    }]]
+    }
 }
 return Spawns
