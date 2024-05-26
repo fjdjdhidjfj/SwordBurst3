@@ -6,7 +6,7 @@ Spawns = {
         ["Brown Bear"] = CFrame.new(815, 151, 1025),
         ["Rock Golem"] = CFrame.new(215, 211, 1400),
         ["Crystal Boar"] = CFrame.new(-190, 152, 720),
-        ["Sakura Moose"] = CFrame.new(-740, 209, -58)
+        ["Thunder Sakura Moose"] = CFrame.new(-740, 209, -58)
         --[""] = CFrame.new()
     }
 }
