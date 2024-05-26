@@ -1,10 +1,15 @@
 bosses = {
     [1] = {
-        [1] = "Elron the Frenzy Lord",
-        [2] = "Galiard",
-        [3] = "Hagan"
+        ["Elron the Frenzy Lord"] = 25,
+        ["Galiard"] = 20,
+        ["Hagan"] = 10
     },
     [2] = {
+        ["Erebus"] = 40,
+        ["Pathos The Fire Lord"] = 45,
+        ["Roaring Ogre"] = 30
+    },
+    [3] = {
         
     }
 }
