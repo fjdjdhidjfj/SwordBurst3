@@ -8,3 +8,4 @@ bosses = {
         
     }
 }
+return bosses
