@@ -1,1 +1,2 @@
-return {[1] = "test"}
+quests = {[1] = "test"}
+return quests
