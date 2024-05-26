@@ -12,6 +12,6 @@ Spawns = {
     },
     [2] = {
         --[""] = CFrame.new()
-    }    
+    }   
 }
 return Spawns
