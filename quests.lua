@@ -1,4 +1,4 @@
-{
+quests = {
 [1] = {Type = "Kill", Amount = 5, Target = "Razor Boar", Level = 1, Repeatable = true},
 [2] = {Type = "Kill", Amount = 5, Target = "Wolf", Level = 4, Repeatable = true},
 [3] = {Type = "Kill", Amount = 5, Target = "Tortoise", Level = 2, Repeatable = true},
