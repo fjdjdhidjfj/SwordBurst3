@@ -17,8 +17,12 @@ Spawns = {
         ["Skeleton Bear"] = CFrame.new(560, 405, -945),
         ["Fiery Moose"] = CFrame.new(-90, 385, -2235),
         ["Magma Golem"] = CFrame.new(-1460, 402, -2520),
-        ["Phoenix"] = CFrame.new(-1660, 511, -1020)
+        ["Phoenix"] = CFrame.new(-1660, 511, -1020),
+        ["Fire Imp"] = CFrame.new(-745, -312, -3520),
+        ["Hell Hound"] = CFrame.new(-395, -332, -1470)
+    },
+    [3] = {
         --[""] = CFrame.new(),
-    }	
+    }
 }
 return Spawns
