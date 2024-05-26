@@ -22,6 +22,17 @@ Spawns = {
         ["Hell Hound"] = CFrame.new(-395, -332, -1470)
     },
     [3] = {
+        ["Mist Bunny"] = CFrame.new(-160, 22, 2005),
+        ["Penguin"] = CFrame.new(130, 19, 820),
+        ["Frost Scorpion"] = CFrame.new(120, 58, -310),
+        ["Snow Kitsune"] = CFrame.new(-400, 85, -1785),
+        ["Chill Bat"] = CFrame.new(-1540, 215, -1990),
+        ["Polar Bear"] = CFrame.new(-2710, 232, -690),
+        ["Cold Mammoth"] = CFrame.new(-3005, 255, 155),
+        ["Icewhal"] = CFrame.new(-23585, 2958, 410),
+        ["Ice Wraith"] = CFrame.new(-22945, 2972, 1070)
+    },
+    [4] = {
         --[""] = CFrame.new(),
     }
 }
