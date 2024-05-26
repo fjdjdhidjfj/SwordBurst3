@@ -48,3 +48,4 @@ quests = {
 [47] = {Type = "Kill", Amount = 5, Target = "Jeweled Scarab", Level = 82, Repeatable = true},
 [48] = {Type = "Kill", Amount = 20, Target = "Jeweled Scarab", Level = 83, Repeatable = false}
 }
+return quests
