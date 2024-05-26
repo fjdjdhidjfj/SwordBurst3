@@ -1,1 +1,1 @@
-{[1] = "test"}
+return {[1] = "test"}
