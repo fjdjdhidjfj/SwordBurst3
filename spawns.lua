@@ -36,4 +36,4 @@ spawns = {
         --[""] = CFrame.new(),
     }
 }
-return Spawns
+return spawns
