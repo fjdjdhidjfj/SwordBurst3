@@ -15,7 +15,9 @@ bosses = {
         ["Yeti"] = 60
     },
     [4] = {
-
+        ["Desert Spirit"] = 70,
+        ["Sand Terror"] = 80,
+        ["Nestor The Guardian"] = 85
     }
 }
 return bosses
