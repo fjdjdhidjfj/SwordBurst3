@@ -1,18 +1,18 @@
 bosses = {
     [1] = {
-        ["Elron The Frenzy Lord"] = 25,
+        ["Hagan"] = 10,
         ["Galiard"] = 20,
-        ["Hagan"] = 10
+        ["Elron The Frenzy Lord"] = 25
     },
     [2] = {
+        ["Roaring Ogre"] = 30,
         ["Erebus"] = 40,
-        ["Pathos The Fire Lord"] = 45,
-        ["Roaring Ogre"] = 30
+        ["Pathos The Fire Lord"] = 45
     },
     [3] = {
         ["Alpha Icewhal"] = 50,
+        ["Yeti"] = 60,
         ["Elize The Siren"] = 65,
-        ["Yeti"] = 60
     },
     [4] = {
         ["Desert Spirit"] = 70,
