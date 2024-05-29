@@ -1,4 +1,4 @@
-Spawns = {
+spawns = {
     [1] = {
         ["Razor Boar"] = CFrame.new(840, 133, -700),
         ["Tortoise"] = CFrame.new(1300, 130, -451),
@@ -44,4 +44,4 @@ Spawns = {
         ["Jeweled Scarab"] = CFrame.new(420, -414, 4250)
     }
 }
-return Spawns
+return spawns
