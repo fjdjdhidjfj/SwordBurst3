@@ -1,4 +1,4 @@
-spawns = {
+Spawns = {
     [1] = {
         ["Razor Boar"] = CFrame.new(840, 133, -700),
         ["Tortoise"] = CFrame.new(1300, 130, -451),
@@ -33,7 +33,15 @@ spawns = {
         ["Ice Wraith"] = CFrame.new(-22945, 2972, 1070)
     },
     [4] = {
-        --[""] = CFrame.new(),
+        ["Crocodile"] = CFrame.new(485, 152, -1690),
+        ["Raptor"] = CFrame.new(-620, 153, -835),
+        ["Desert Phoenix"] = CFrame.new(-1150, 153, -690),
+        ["Spirit Lion"] = CFrame.new(-665, 122, 645),
+        ["Oasis Tortoise"] = CFrame.new(1260, 154, 75),
+        ["Dragonfly"] = CFrame.new(2135, 155, 1005),
+        ["Camel"] = CFrame.new(970, 153, 1775),
+        ["Tomb Scorpion"] = CFrame.new(235, -414, 3405),
+        ["Jeweled Scarab"] = CFrame.new(420, -414, 4250)
     }
 }
-return spawns
+return Spawns
