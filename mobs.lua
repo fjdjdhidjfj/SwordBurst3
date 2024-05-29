@@ -4,5 +4,4 @@ mobs = {
     [3] = {"Mist Bunny", "Penguin", "Frost Scorpion", "Snow Kitsune", "Chill Bat", "Polar Bear", "Cold Mammoth", "Icewhal", "Ice Wraith"},
     [4] = {"Crocodile", "Raptor", "Desert Phoenix", "Spirit Lion", "Oasis Tortoise", "Dragonfly", "Camel", "Tomb Scorpion", "Jeweled Scarab"}
 }
-
 return mobs
