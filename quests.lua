@@ -68,7 +68,7 @@ quests = {
         [60] = {["Type"] = "Kill", ["Amount"] = 10, ["Target"] = "Desert Phoenix", ["Level"] = 70, ["Repeatable"] = false},
         [61] = {["Type"] = "Kill", ["Amount"] = 10, ["Target"] = "Oasis Tortoise", ["Level"] = 76, ["Repeatable"] = false},
         [62] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Desert Spirit", ["Level"] = 73, ["Repeatable"] = false},
-        [63] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Sand Terror", ["Level"] = 75, ["Repeatable"] = false
+        [63] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Sand Terror", ["Level"] = 75, ["Repeatable"] = false}
     }
 }
 return quests
