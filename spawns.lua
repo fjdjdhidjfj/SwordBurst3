@@ -7,6 +7,7 @@ spawns = {
         ["Rock Golem"] = CFrame.new(215, 181, 1400),
         ["Crystal Boar"] = CFrame.new(-190, 122, 720),
         ["Thunder Sakura Moose"] = CFrame.new(-740, 179, -58),
+        ["Jackalope"] = CFrame.new(-1455, 217, -45),
         ["Soldier Boar"] = CFrame.new(-1510, -73, 1335),
         ["Basilisk"] = CFrame.new(-1050, -103, 1225)
     },
