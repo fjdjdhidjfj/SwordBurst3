@@ -1,4 +1,4 @@
-mobs = {
+local mobs = {
     [1] = {"Razor Boar", "Tortoise", "Wolf", "Brown Bear", "Rock Golem", "Crystal Boar", "Thunder Sakura Moose", "Jackalope", "Soldier Boar", "Basilisk"},
     [2] = {"Fire Wasp", "Ember Jaguar", "Lava Basilisk", "Skeleton Bear", "Fiery Moose", "Magma Golem", "Phoenix", "Fire Imp", "Hell Hound"},
     [3] = {"Mist Bunny", "Penguin", "Frost Scorpion", "Snow Kitsune", "Chill Bat", "Polar Bear", "Cold Mammoth", "Icewhal", "Ice Wraith"},
