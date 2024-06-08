@@ -1,4 +1,4 @@
-spawns = {
+local spawns = {
     [1] = {
         ["Razor Boar"] = CFrame.new(840, 103, -700),
         ["Tortoise"] = CFrame.new(1300, 100, -451),
