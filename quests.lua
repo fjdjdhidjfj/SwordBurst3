@@ -1,4 +1,4 @@
-quests = {
+local quests = {
     [1] = {
         [1] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Razor Boar", ["Level"] = 1, ["Repeatable"] = true},
         [2] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Wolf", ["Level"] = 4, ["Repeatable"] = true},
