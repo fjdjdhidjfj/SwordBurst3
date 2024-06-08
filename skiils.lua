@@ -1,7 +1,7 @@
 local skills = {
     ["GreatRush"] = {
         ["Hits"] = {
-            { ["Damage"] = 1.8, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 1.8, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 25,
         ["Cooldown"] = 2.5,
@@ -9,11 +9,11 @@ local skills = {
     },
     ["Cleave"] = {
         ["Hits"] = {
-            { ["Damage"] = 2, ["Type"] = "Normal" },
-            { ["Damage"] = 2, ["Type"] = "Normal" },
-            { ["Damage"] = 2, ["Type"] = "Normal" },
-            { ["Damage"] = 2, ["Type"] = "Normal" },
-            { ["Damage"] = 2, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 2, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 2, ["Type"] = "Normal" },
+            [3] = { ["Damage"] = 2, ["Type"] = "Normal" },
+            [4] = { ["Damage"] = 2, ["Type"] = "Normal" },
+            [5] = { ["Damage"] = 2, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 25,
         ["Cooldown"] = 4,
@@ -21,9 +21,9 @@ local skills = {
     },
     ["Whirlwind"] = {
         ["Hits"] = {
-            { ["Damage"] = 1, ["Type"] = "Normal" },
-            { ["Damage"] = 1, ["Type"] = "Normal" },
-            { ["Damage"] = 1, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 1, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 1, ["Type"] = "Normal" },
+            [3] = { ["Damage"] = 1, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 35,
         ["Cooldown"] = 5,
@@ -31,8 +31,8 @@ local skills = {
     },
     ["MeteorStrike"] = {
         ["Hits"] = {
-            { ["Damage"] = 1.6, ["Type"] = "Normal" },
-            { ["Damage"] = 4.3, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 1.6, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 4.3, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 45,
         ["Cooldown"] = 10,
@@ -46,11 +46,11 @@ local skills = {
     },
     ["WideSlash"] = {
         ["Hits"] = {
-            { ["Damage"] = 2.4, ["Type"] = "Normal" },
-            { ["Damage"] = 2.4, ["Type"] = "Normal" },
-            { ["Damage"] = 2.4, ["Type"] = "Normal" },
-            { ["Damage"] = 2.4, ["Type"] = "Normal" },
-            { ["Damage"] = 2.4, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 2.4, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 2.4, ["Type"] = "Normal" },
+            [3] = { ["Damage"] = 2.4, ["Type"] = "Normal" },
+            [4] = { ["Damage"] = 2.4, ["Type"] = "Normal" },
+            [5] = { ["Damage"] = 2.4, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 30,
         ["Cooldown"] = 5,
@@ -58,12 +58,12 @@ local skills = {
     },
     ["LinearFlurry"] = {
         ["Hits"] = {
-            { ["Damage"] = 0.75, ["Type"] = "Normal" },
-            { ["Damage"] = 0.75, ["Type"] = "Normal" },
-            { ["Damage"] = 0.75, ["Type"] = "Normal" },
-            { ["Damage"] = 0.75, ["Type"] = "Normal" },
-            { ["Damage"] = 0.75, ["Type"] = "Normal" },
-            { ["Damage"] = 0.75, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 0.75, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 0.75, ["Type"] = "Normal" },
+            [3] = { ["Damage"] = 0.75, ["Type"] = "Normal" },
+            [4] = { ["Damage"] = 0.75, ["Type"] = "Normal" },
+            [5] = { ["Damage"] = 0.75, ["Type"] = "Normal" },
+            [6] = { ["Damage"] = 0.75, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 30,
         ["Cooldown"] = 5,
@@ -71,26 +71,26 @@ local skills = {
     },
     ["KatanaWhirl"] = {
         ["Hits"] = {
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" },
-            { ["Damage"] = 0.1, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [3] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [4] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [5] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [6] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [7] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [8] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [9] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [10] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [11] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [12] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [13] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [14] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [15] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [16] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [17] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [18] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [19] = { ["Damage"] = 0.1, ["Type"] = "Normal" },
+            [20] = { ["Damage"] = 0.1, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 35,
         ["Cooldown"] = 7,
@@ -104,10 +104,10 @@ local skills = {
     },
     ["Flurry"] = {
         ["Hits"] = {
-            { ["Damage"] = 0.9, ["Type"] = "Normal" },
-            { ["Damage"] = 0.9, ["Type"] = "Normal" },
-            { ["Damage"] = 0.9, ["Type"] = "Normal" },
-            { ["Damage"] = 0.9, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 0.9, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 0.9, ["Type"] = "Normal" },
+            [3] = { ["Damage"] = 0.9, ["Type"] = "Normal" },
+            [4] = { ["Damage"] = 0.9, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 30,
         ["Cooldown"] = 6,
@@ -115,7 +115,7 @@ local skills = {
     },
     ["SwordThrust"] = {
         ["Hits"] = {
-            { ["Damage"] = 1.6, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 1.6, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 20,
         ["Cooldown"] = 2,
@@ -123,12 +123,12 @@ local skills = {
     },
     ["FierceStrike"] = {
         ["Hits"] = {
-            { ["Damage"] = 0.7, ["Type"] = "Normal" },
-            { ["Damage"] = 0.7, ["Type"] = "Normal" },
-            { ["Damage"] = 0.7, ["Type"] = "Normal" },
-            { ["Damage"] = 0.7, ["Type"] = "Normal" },
-            { ["Damage"] = 0.7, ["Type"] = "Normal" },
-            { ["Damage"] = 0.7, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 0.7, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 0.7, ["Type"] = "Normal" },
+            [3] = { ["Damage"] = 0.7, ["Type"] = "Normal" },
+            [4] = { ["Damage"] = 0.7, ["Type"] = "Normal" },
+            [5] = { ["Damage"] = 0.7, ["Type"] = "Normal" },
+            [6] = { ["Damage"] = 0.7, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 45,
         ["Cooldown"] = 10,
@@ -136,26 +136,26 @@ local skills = {
     },
     ["WraithSummon"] = {
         ["Hits"] = {
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [3] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [4] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [5] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [6] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [7] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [8] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [9] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [10] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [11] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [12] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [13] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [14] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [15] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [16] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [17] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [18] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [19] = { ["Damage"] = 0.6, ["Type"] = "Normal" },
+            [20] = { ["Damage"] = 0.6, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 60,
         ["Cooldown"] = 25,
@@ -163,9 +163,9 @@ local skills = {
     },
     ["ThunderStrike"] = {
         ["Hits"] = {
-            { ["Damage"] = 0.8, ["Type"] = "Normal" },
-            { ["Damage"] = 1.4, ["Type"] = "Normal" },
-            { ["Damage"] = 1.4, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 0.8, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 1.4, ["Type"] = "Normal" },
+            [3] = { ["Damage"] = 1.4, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 40,
         ["Cooldown"] = 7,
@@ -173,7 +173,7 @@ local skills = {
     },
     ["Fissure"] = {
         ["Hits"] = {
-            { ["Damage"] = 3.2, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 3.2, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 35,
         ["Cooldown"] = 8,
@@ -181,26 +181,26 @@ local skills = {
     },
     ["DimensionalRip"] = {
         ["Hits"] = {
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [3] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [4] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [5] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [6] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [7] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [8] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [9] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [10] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [11] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [12] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [13] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [14] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [15] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [16] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [17] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [18] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [19] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [20] = { ["Damage"] = 0.3, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 50,
         ["Cooldown"] = 12,
@@ -208,10 +208,10 @@ local skills = {
     },
     ["KatanaAssault"] = {
         ["Hits"] = {
-            { ["Damage"] = 1.1, ["Type"] = "Normal" },
-            { ["Damage"] = 1.1, ["Type"] = "Normal" },
-            { ["Damage"] = 1.1, ["Type"] = "Normal" },
-            { ["Damage"] = 1.1, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 1.1, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 1.1, ["Type"] = "Normal" },
+            [3] = { ["Damage"] = 1.1, ["Type"] = "Normal" },
+            [4] = { ["Damage"] = 1.1, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 40,
         ["Cooldown"] = 9,
@@ -219,16 +219,16 @@ local skills = {
     },
     ["DualCleave"] = {
         ["Hits"] = {
-            { ["Damage"] = 2.2, ["Type"] = "Normal" },
-            { ["Damage"] = 2.2, ["Type"] = "Normal" },
-            { ["Damage"] = 2.2, ["Type"] = "Normal" },
-            { ["Damage"] = 2.2, ["Type"] = "Normal" },
-            { ["Damage"] = 2.2, ["Type"] = "Normal" },
-            { ["Damage"] = 2.2, ["Type"] = "Normal" },
-            { ["Damage"] = 2.2, ["Type"] = "Normal" },
-            { ["Damage"] = 2.2, ["Type"] = "Normal" },
-            { ["Damage"] = 2.2, ["Type"] = "Normal" },
-            { ["Damage"] = 2.2, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 2.2, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 2.2, ["Type"] = "Normal" },
+            [3] = { ["Damage"] = 2.2, ["Type"] = "Normal" },
+            [4] = { ["Damage"] = 2.2, ["Type"] = "Normal" },
+            [5] = { ["Damage"] = 2.2, ["Type"] = "Normal" },
+            [6] = { ["Damage"] = 2.2, ["Type"] = "Normal" },
+            [7] = { ["Damage"] = 2.2, ["Type"] = "Normal" },
+            [8] = { ["Damage"] = 2.2, ["Type"] = "Normal" },
+            [9] = { ["Damage"] = 2.2, ["Type"] = "Normal" },
+            [10] = { ["Damage"] = 2.2, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 30,
         ["Cooldown"] = 5,
@@ -236,7 +236,7 @@ local skills = {
     },
     ["KatanaDash"] = {
         ["Hits"] = {
-            { ["Damage"] = 1.4, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 1.4, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 20,
         ["Cooldown"] = 5,
@@ -244,14 +244,14 @@ local skills = {
     },
     ["FrostBlades"] = {
         ["Hits"] = {
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.9, ["Type"] = "Normal" },
-            { ["Damage"] = 0.9, ["Type"] = "Normal" },
-            { ["Damage"] = 0.9, ["Type"] = "Normal" },
-            { ["Damage"] = 0.9, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [3] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [4] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [5] = { ["Damage"] = 0.9, ["Type"] = "Normal" },
+            [6] = { ["Damage"] = 0.9, ["Type"] = "Normal" },
+            [7] = { ["Damage"] = 0.9, ["Type"] = "Normal" },
+            [8] = { ["Damage"] = 0.9, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 40,
         ["Cooldown"] = 10,
@@ -259,7 +259,7 @@ local skills = {
     },
     ["VenomStrike"] = {
         ["Hits"] = {
-            { ["Damage"] = 3, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 3, ["Type"] = "Normal" }
         },
         ["EnergyCost"] = 25,
         ["Cooldown"] = 7,
@@ -267,88 +267,37 @@ local skills = {
     },
     ["HurricaneRush"] = {
         ["Hits"] = {
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" },
-            { ["Damage"] = 0.3, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [2] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [3] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [4] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [5] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [6] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [7] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [8] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [9] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [10] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [11] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [12] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [13] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [14] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [15] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [16] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [17] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [18] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [19] = { ["Damage"] = 0.3, ["Type"] = "Normal" },
+            [20] = { ["Damage"] = 0.3, ["Type"] = "Normal" }
         },
-        ["EnergyCost"] = 50,
-        ["Cooldown"] = 13,
+        ["EnergyCost"] = 55,
+        ["Cooldown"] = 15,
         ["DisplayName"] = "Hurricane Rush"
     },
-    ["KnifeAura"] = {
+    ["BloodStrike"] = {
         ["Hits"] = {
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" },
-            { ["Damage"] = 0.6, ["Type"] = "Normal" }
+            [1] = { ["Damage"] = 2.2, ["Type"] = "Normal" }
         },
-        ["EnergyCost"] = 30,
-        ["Cooldown"] = 15,
-        ["DisplayName"] = "Veil of Knives"
-    },
-    ["FanSlash"] = {
-        ["Hits"] = {
-            { ["Damage"] = 0.5, ["Type"] = "Normal" },
-            { ["Damage"] = 0.5, ["Type"] = "Normal" },
-            { ["Damage"] = 0.5, ["Type"] = "Normal" },
-            { ["Damage"] = 0.5, ["Type"] = "Normal" },
-            { ["Damage"] = 0.5, ["Type"] = "Normal" },
-            { ["Damage"] = 0.5, ["Type"] = "Normal" }
-        },
-        ["EnergyCost"] = 35,
+        ["EnergyCost"] = 25,
         ["Cooldown"] = 7,
-        ["DisplayName"] = "Fan Slash"
-    },
-    ["StarStream"] = {
-        ["Hits"] = {
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" },
-            { ["Damage"] = 0.25, ["Type"] = "Normal" }
-        },
-        ["EnergyCost"] = 30,
-        ["Cooldown"] = 12,
-        ["DisplayName"] = "Star Stream"
+        ["DisplayName"] = "Blood Strike"
     }
 }
-
-return skills
