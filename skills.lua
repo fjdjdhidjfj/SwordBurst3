@@ -301,3 +301,4 @@ local skills = {
         ["DisplayName"] = "Blood Strike"
     }
 }
+return skills
