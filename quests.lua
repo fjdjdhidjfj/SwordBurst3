@@ -1,4 +1,4 @@
-local quests = {
+quests = {
     [1] = {
         [1] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Razor Boar", ["Level"] = 1, ["Repeatable"] = true},
         [2] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Wolf", ["Level"] = 4, ["Repeatable"] = true},
@@ -14,10 +14,10 @@ local quests = {
         [12] = {["Type"] = "Kill", ["Amount"] = 20, ["Target"] = "Basilisk", ["Level"] = 23, ["Repeatable"] = false},
         [13] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Soldier Boar", ["Level"] = 21, ["Repeatable"] = true},
         [14] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Basilisk", ["Level"] = 22, ["Repeatable"] = true},
-        [49] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Hagan", ["Level"] = 9, ["Repeatable"] = false},
-        [50] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Galiard", ["Level"] = 14, ["Repeatable"] = false},
         [51] = {["Type"] = "Kill", ["Amount"] = 10, ["Target"] = "Thunder Sakura Moose", ["Level"] = 17, ["Repeatable"] = false},
         [52] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Jackalope", ["Level"] = 18, ["Repeatable"] = true},
+        [49] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Hagan", ["Level"] = 9, ["Repeatable"] = false},
+        [50] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Galiard", ["Level"] = 14, ["Repeatable"] = false}
     },
     [2] = {
         [15] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Fire Wasp", ["Level"] = 23, ["Repeatable"] = true},
@@ -34,7 +34,7 @@ local quests = {
         [53] = {["Type"] = "Kill", ["Amount"] = 10, ["Target"] = "Lava Basilisk", ["Level"] = 29, ["Repeatable"] = false},
         [54] = {["Type"] = "Kill", ["Amount"] = 10, ["Target"] = "Fiery Moose", ["Level"] = 35, ["Repeatable"] = false},
         [55] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Roaring Ogre", ["Level"] = 27, ["Repeatable"] = false},
-        [56] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Erebus", ["Level"] = 32, ["Repeatable"] = false},
+        [56] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Erebus", ["Level"] = 32, ["Repeatable"] = false}
     },
     [3] = {
         [26] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Mist Bunny", ["Level"] = 43, ["Repeatable"] = true},
@@ -49,9 +49,9 @@ local quests = {
         [35] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Ice Wraith", ["Level"] = 61, ["Repeatable"] = true},
         [36] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Icewhal", ["Level"] = 62, ["Repeatable"] = true},
         [37] = {["Type"] = "Kill", ["Amount"] = 20, ["Target"] = "Icewhal", ["Level"] = 63, ["Repeatable"] = false},
-        [57] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Alpha Icewhal", ["Level"] = 47, ["Repeatable"] = false},
-        [58] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Yeti", ["Level"] = 51, ["Repeatable"] = false},
         [59] = {["Type"] = "Kill", ["Amount"] = 10, ["Target"] = "Penguin", ["Level"] = 47, ["Repeatable"] = false},
+        [57] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Alpha Icewhal", ["Level"] = 47, ["Repeatable"] = false},
+        [58] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Yeti", ["Level"] = 51, ["Repeatable"] = false}
     },
     [4] = {
         [38] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Crocodile", ["Level"] = 63, ["Repeatable"] = true},
@@ -64,11 +64,23 @@ local quests = {
         [45] = {["Type"] = "Kill", ["Amount"] = 10, ["Target"] = "Camel", ["Level"] = 80, ["Repeatable"] = false},
         [46] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Tomb Scorpion", ["Level"] = 81, ["Repeatable"] = true},
         [47] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Jeweled Scarab", ["Level"] = 82, ["Repeatable"] = true},
-        [48] = {["Type"] = "Kill", ["Amount"] = 20, ["Target"] = "Jeweled Scarab", ["Level"] = 83, ["Repeatable"] = false},
         [60] = {["Type"] = "Kill", ["Amount"] = 10, ["Target"] = "Desert Phoenix", ["Level"] = 70, ["Repeatable"] = false},
         [61] = {["Type"] = "Kill", ["Amount"] = 10, ["Target"] = "Oasis Tortoise", ["Level"] = 76, ["Repeatable"] = false},
+        [48] = {["Type"] = "Kill", ["Amount"] = 20, ["Target"] = "Jeweled Scarab", ["Level"] = 83, ["Repeatable"] = false},
         [62] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Desert Spirit", ["Level"] = 73, ["Repeatable"] = false},
         [63] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Sand Terror", ["Level"] = 75, ["Repeatable"] = false}
+    },
+    [5] = {
+        [64] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Mushroom", ["Level"] = 83, ["Repeatable"] = true},
+        [65] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Twilight Deer", ["Level"] = 86, ["Repeatable"] = true},
+        [66] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Spectral Wolf", ["Level"] = 89, ["Repeatable"] = true},
+        [67] = {["Type"] = "Kill", ["Amount"] = 10, ["Target"] = "Spectral Wolf", ["Level"] = 90, ["Repeatable"] = false},
+        [68] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Goblin", ["Level"] = 91, ["Repeatable"] = true},
+        [70] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Unicorn", ["Level"] = 94, ["Repeatable"] = true},
+        [71] = {["Type"] = "Kill", ["Amount"] = 10, ["Target"] = "Unicorn", ["Level"] = 96, ["Repeatable"] = false},
+        [72] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Blossom Boar", ["Level"] = 97, ["Repeatable"] = true},
+        [74] = {["Type"] = "Kill", ["Amount"] = 5, ["Target"] = "Twinklefly", ["Level"] = 99, ["Repeatable"] = true},
+        [69] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Forest Protector", ["Level"] = 93, ["Repeatable"] = false},
+        [73] = {["Type"] = "Kill", ["Amount"] = 1, ["Target"] = "Enchanted Owl", ["Level"] = 98, ["Repeatable"] = false}
     }
 }
-return quests
