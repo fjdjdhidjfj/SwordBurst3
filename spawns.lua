@@ -2,7 +2,7 @@ local spawns = {
     --1
     ["Razor Boar"] = CFrame.new(840, 103, -700),
     ["Tortoise"] = CFrame.new(1300, 100, -451),
-    ["Wolf"] = CFrame.new(915, 132, 220),https://github.com/fjdjdhidjfj/SwordBurst3/blob/main/spawns.lua
+    ["Wolf"] = CFrame.new(915, 132, 220),
     ["Brown Bear"] = CFrame.new(815, 121, 1025),
     ["Rock Golem"] = CFrame.new(215, 181, 1400),
     ["Crystal Boar"] = CFrame.new(-190, 122, 720),
