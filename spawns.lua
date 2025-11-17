@@ -39,6 +39,16 @@ local spawns = {
     ["Dragonfly"] = CFrame.new(2135, 125, 1005),
     ["Camel"] = CFrame.new(970, 123, 1775),
     ["Tomb Scorpion"] = CFrame.new(235, -384, 3405),
-    ["Jeweled Scarab"] = CFrame.new(420, -384, 4250)
+    ["Jeweled Scarab"] = CFrame.new(420, -384, 4250),
+    --5
+    ["Mushroom"] = CFrame.new(-1350, 910, -3130),
+    ["Twilight Deer"] = CFrame.new(-1821, 886, -1948),
+    ["Spectral Wolf"] = CFrame.new(-1949, 900, -1020),
+    ["Goblin"] = CFrame.new(-1965, 867, -435),
+    ["Unicorn"] = CFrame.new(-756, 881, 1118),
+    ["Blossom Boar"] = CFrame.new(507, 886, 1148),
+    ["Twinklefly"] = CFrame.new(714, 881, -564),
+    ["Panther"] = CFrame.new(-8299, 1132, 3436),
+    ["Treant"] = CFrame.new(-9303, 1126, 2510)
 }
 return spawns
