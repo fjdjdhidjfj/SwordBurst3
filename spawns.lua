@@ -41,14 +41,24 @@ local spawns = {
     ["Tomb Scorpion"] = CFrame.new(235, -384, 3405),
     ["Jeweled Scarab"] = CFrame.new(420, -384, 4250),
     --5
-    ["Mushroom"] = CFrame.new(-1350, 910, -3130),
-    ["Twilight Deer"] = CFrame.new(-1821, 886, -1948),
-    ["Spectral Wolf"] = CFrame.new(-1949, 900, -1020),
-    ["Goblin"] = CFrame.new(-1965, 867, -435),
-    ["Unicorn"] = CFrame.new(-756, 881, 1118),
-    ["Blossom Boar"] = CFrame.new(507, 886, 1148),
-    ["Twinklefly"] = CFrame.new(714, 881, -564),
-    ["Panther"] = CFrame.new(-8299, 1132, 3436),
-    ["Treant"] = CFrame.new(-9303, 1126, 2510)
+    ["Mushroom"] = CFrame.new(-1350, 900, -3130),
+    ["Twilight Deer"] = CFrame.new(-1821, 876, -1948),
+    ["Spectral Wolf"] = CFrame.new(-1949, 890, -1020),
+    ["Goblin"] = CFrame.new(-1965, 857, -435),
+    ["Unicorn"] = CFrame.new(-756, 871, 1118),
+    ["Blossom Boar"] = CFrame.new(507, 876, 1148),
+    ["Twinklefly"] = CFrame.new(714, 871, -564),
+    ["Panther"] = CFrame.new(-8299, 1122, 3436),
+    ["Treant"] = CFrame.new(-9303, 1116, 2510),
+    --6
+    ["Axolotl"] = CFrame.new(18949, -1151, -2501),
+    ["Corrupted Siren"] = CFrame.new(17802, -1127, -3248),
+    ["Crab"] = CFrame.new(608, 114, 1751),
+    ["Jellyfish"] = CFrame.new(-30, 7, -860),
+    ["Ocean Wraith"] = CFrame.new(-2306, 7, 959),
+    ["Pirate"] = CFrame.new(-504, 7, -1548),
+    ["Sea Basilisk"] = CFrame.new(-1604, 7, -457),
+    ["Sea Turtle"] = CFrame.new(526, 79, -213),
+    ["Seahorse"] = CFrame.new(712, 79, 711)
 }
 return spawns
