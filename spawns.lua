@@ -59,6 +59,16 @@ local spawns = {
     ["Pirate"] = CFrame.new(-504, 7, -1548),
     ["Sea Basilisk"] = CFrame.new(-1604, 7, -457),
     ["Sea Turtle"] = CFrame.new(526, 79, -213),
-    ["Seahorse"] = CFrame.new(712, 79, 711)
+    ["Seahorse"] = CFrame.new(712, 79, 711),
+    --
+    ["Firefly"] = CFrame.new(-264, 445, -139),
+    ["Moth"] = CFrame.new(827, 503, -150),
+    ["Ram"] = CFrame.new(1686, 516, -109),
+    ["Night Lion"] = CFrame.new(2538, 537, 586),
+    ["Moonshade Bat"] = CFrame.new(3636, 558, 512),
+    ["Werewolf"] = CFrame.new(2897, 624, -1947),
+    ["Pegasus"] = CFrame.new(814, 746, -2030),
+    ["Celestial Deer"] = CFrame.new(-9271, 815, -610),
+    ["Celestial Owl"] = CFrame.new(-10324, 816, -21)
 }
 return spawns
