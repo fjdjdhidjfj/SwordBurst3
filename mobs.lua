@@ -5,6 +5,7 @@ local mobs = {
     [4] = {"Crocodile", "Raptor", "Desert Phoenix", "Spirit Lion", "Oasis Tortoise", "Dragonfly", "Camel", "Tomb Scorpion", "Jeweled Scarab"},
     [5] = {"Mushroom", "Twilight Deer", "Spectral Wolf", "Goblin", "Unicorn", "Blossom Boar", "Twinklefly", "Panther", "Treant"},
     [6] = {"Axolotl", "Corrupted Siren", "Crab", "Jellyfish", "Ocean Wraith", "Pirate", "Sea Basilisk", "Sea Turtle", "Seahorse"},
+    [7] = {"Firefly", "Moth", "Ram", "Night Lion", "Moonshade Bat", "Werewolf", "Pegasus", "Celestial Deer", "Celestial Owl"},
     ["Tower"] = {
         "Razor Boar", "Tortoise", "Wolf", "Brown Bear", "Rock Golem", "Crystal Boar", "Thunder Sakura Moose", "Jackalope", "Soldier Boar", "Basilisk",
         "Fire Wasp", "Ember Jaguar", "Lava Basilisk", "Skeleton Bear", "Fiery Moose", "Magma Golem", "Phoenix", "Fire Imp", "Hell Hound",
